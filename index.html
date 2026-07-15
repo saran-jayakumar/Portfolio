@@ -33,6 +33,10 @@
 </head>
 
 <body>
+    <!-- Scroll Progress Bar -->
+    <div id="scroll-progress"></div>
+    <div class="cursor-glow" id="cursor-glow"></div>
+
     <!-- Background Animated Blobs -->
     <div class="blob-container">
         <div class="blob blob-1"></div>
@@ -101,7 +105,7 @@
         <!-- Hero Section -->
         <section class="section hero-section" id="home">
             <div class="container hero-container">
-                <div class="hero-content">
+                <div class="hero-content reveal">
                     <div class="hero-badge-container">
                         <span class="hero-badge">Available for Roles</span>
                     </div>
@@ -109,7 +113,7 @@
                         Hi, I'm <span class="gradient-text">Saran Jayakumar</span>
                     </h1>
                     <h2 class="hero-subtitle">
-                        I am a <span id="typewriter-text" class="accent-text"></span><span class="cursor">|</span>
+                        I am a&nbsp;<span id="typewriter-text" class="accent-text"></span><span class="cursor">|</span>
                     </h2>
                     <p class="hero-description">
                         Electronics & Communication graduate turned software engineer. I build high-performance,
@@ -136,7 +140,7 @@
                             class="social-icon" aria-label="GitHub Profile">
                             <i class="fa-brands fa-github"></i>
                         </a>
-                        <a href="https://linkedin.com/in/saran_jayakumar" target="_blank" rel="noopener noreferrer"
+                        <a href="https://linkedin.com/in/saran-jayakumar" target="_blank" rel="noopener noreferrer"
                             class="social-icon" aria-label="LinkedIn Profile">
                             <i class="fa-brands fa-linkedin-in"></i>
                         </a>
@@ -145,7 +149,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="hero-visual">
+                <div class="hero-visual reveal reveal-delay-2">
                     <div class="avatar-card-wrapper">
                         <div class="avatar-card-glow"></div>
                         <div class="avatar-card">
@@ -217,13 +221,13 @@
         <!-- About Section -->
         <section class="section about-section" id="about">
             <div class="container">
-                <div class="section-header">
+                <div class="section-header reveal">
                     <span class="section-tagline">Who I Am</span>
                     <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
                     <div class="section-underline"></div>
                 </div>
 
-                <div class="about-grid" style="grid-template-columns: 1fr;">
+                <div class="about-grid reveal" style="grid-template-columns: 1fr;">
                     <div class="about-card main-about-card card">
                         <div class="card-inner">
                             <p>Hi, I'm Saran Jayakumar, a Java Full-Stack Developer with a Bachelor's degree in Electronics and Communication Engineering (2024). I enjoy building responsive web applications and developing scalable backend services using modern technologies.</p>
@@ -238,7 +242,7 @@
         <!-- Skills Section -->
         <section class="section skills-section" id="skills">
             <div class="container">
-                <div class="section-header">
+                <div class="section-header reveal">
                     <span class="section-tagline">My Capabilities</span>
                     <h2 class="section-title">Technical <span class="gradient-text">Skills</span></h2>
                     <div class="section-underline"></div>
@@ -248,7 +252,7 @@
                     <!-- Skills Grid -->
                     <div class="skills-grid">
                         <!-- Languages -->
-                        <div class="skills-category-card card">
+                        <div class="skills-category-card card reveal reveal-delay-1">
                             <h3>Languages</h3>
                             <ul class="skills-list">
                                 <li class="skill-item">
@@ -285,7 +289,7 @@
                         </div>
 
                         <!-- Frameworks & Libraries -->
-                        <div class="skills-category-card card">
+                        <div class="skills-category-card card reveal reveal-delay-2">
                             <h3>Frameworks & Libs</h3>
                             <ul class="skills-list">
                                 <li class="skill-item">
@@ -310,7 +314,7 @@
                         </div>
 
                         <!-- AI-Augmented Development -->
-                        <div class="skills-category-card card">
+                        <div class="skills-category-card card reveal reveal-delay-3">
                             <h3>AI-Augmented Dev</h3>
                             <ul class="skills-list">
                                 <li class="skill-item">
@@ -347,7 +351,7 @@
                         </div>
 
                         <!-- Databases -->
-                        <div class="skills-category-card card">
+                        <div class="skills-category-card card reveal reveal-delay-1">
                             <h3>Databases</h3>
                             <ul class="skills-list">
                                 <li class="skill-item">
@@ -366,7 +370,7 @@
                         </div>
 
                         <!-- CS Fundamentals -->
-                        <div class="skills-category-card card">
+                        <div class="skills-category-card card reveal reveal-delay-2">
                             <h3>CS Fundamentals</h3>
                             <ul class="skills-list">
                                 <li class="skill-item">
@@ -382,7 +386,7 @@
                         </div>
 
                         <!-- Tools & Practices -->
-                        <div class="skills-category-card card">
+                        <div class="skills-category-card card reveal reveal-delay-3">
                             <h3>Tools & Practices</h3>
                             <ul class="skills-list">
                                 <li class="skill-item">
@@ -437,14 +441,14 @@
         <!-- Projects Section -->
         <section class="section projects-section" id="projects">
             <div class="container">
-                <div class="section-header">
+                <div class="section-header reveal">
                     <span class="section-tagline">My Works</span>
                     <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
                     <div class="section-underline"></div>
                 </div>
 
                 <!-- Project Filters -->
-                <div class="project-filters">
+                <div class="project-filters reveal reveal-delay-1">
                     <button class="filter-btn active" data-filter="all">All</button>
                     <button class="filter-btn" data-filter="backend">Java & Backend</button>
                     <button class="filter-btn" data-filter="frontend">Frontend & Fullstack</button>
@@ -453,7 +457,7 @@
                 <!-- Projects Grid -->
                 <div class="projects-grid">
                     <!-- Project 1: ONE SCOOP (AI - Augmented Development) -->
-                    <div class="project-card card" data-category="backend">
+                    <div class="project-card card reveal reveal-delay-1" data-category="backend frontend">
                         <div class="project-image-fallback" style="background: rgba(255, 255, 255, 0.02);">
                             <img src="project-logo/onescoop_logo.png" alt="One Scoop Logo" style="width: 100%; height: 100%; object-fit: contain; padding: 20px; z-index: 2;" />
                         </div>
@@ -480,7 +484,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="project-links">
+                            <div class="project-links" style="display: flex; gap: 20px;">
                                 <a href="https://github.com/saran-jayakumar/Ice-cream-shop-management-system" class="btn-text"
                                     target="_blank" rel="noopener noreferrer">
                                     <span>Source Code</span>
@@ -492,12 +496,23 @@
                                         <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
                                     </svg>
                                 </a>
+                                <a href="https://ice-cream-shop-management-system.vercel.app/login" class="btn-text"
+                                    target="_blank" rel="noopener noreferrer">
+                                    <span>Live Demo</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                                        <polyline points="15 3 21 3 21 9" />
+                                        <line x1="10" x2="21" y1="14" y2="3" />
+                                    </svg>
+                                </a>
                             </div>
                         </div>
                     </div>
 
                     <!-- Project 2: News App -->
-                    <div class="project-card card" data-category="frontend">
+                    <div class="project-card card reveal reveal-delay-2" data-category="frontend">
                         <div class="project-image-fallback" style="background: rgba(255, 255, 255, 0.02);">
                             <img src="project-logo/news.png" alt="News App Logo" style="width: 100%; height: 100%; object-fit: contain; padding: 20px; z-index: 2;" />
                         </div>
@@ -520,7 +535,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="project-links">
+                            <div class="project-links" style="display: flex; gap: 20px;">
                                 <a href="https://github.com/saran-jayakumar/News-Website" class="btn-text" target="_blank"
                                     rel="noopener noreferrer">
                                     <span>Source Code</span>
@@ -532,12 +547,23 @@
                                         <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
                                     </svg>
                                 </a>
+                                <a href="https://news-website-v8vo.onrender.com/" class="btn-text" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <span>Live Demo</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                                        <polyline points="15 3 21 3 21 9" />
+                                        <line x1="10" x2="21" y1="14" y2="3" />
+                                    </svg>
+                                </a>
                             </div>
                         </div>
                     </div>
 
                     <!-- Project 3: MeteoBridge MCP Server -->
-                    <div class="project-card card" data-category="backend">
+                    <div class="project-card card reveal reveal-delay-3" data-category="backend">
                         <div class="project-image-fallback" style="background: rgba(255, 255, 255, 0.02);">
                             <img src="project-logo/MCP.png" alt="MeteoBridge MCP Server Logo" style="width: 100%; height: 100%; object-fit: contain; padding: 20px; z-index: 2;" />
                         </div>
@@ -572,13 +598,27 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- View More Projects on GitHub CTA -->
+                <div class="projects-more reveal" style="display: flex; justify-content: center; margin-top: 50px;">
+                    <a href="https://github.com/saran-jayakumar" class="btn btn-secondary" target="_blank" rel="noopener noreferrer" style="gap: 10px;">
+                        <i class="fa-brands fa-github" style="font-size: 1.15rem;"></i>
+                        <span>View More on GitHub</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                            <polyline points="15 3 21 3 21 9" />
+                            <line x1="10" x2="21" y1="14" y2="3" />
+                        </svg>
+                    </a>
+                </div>
             </div>
         </section>
 
         <!-- Certifications Section -->
         <section class="section certifications-section" id="certifications">
             <div class="container">
-                <div class="section-header">
+                <div class="section-header reveal">
                     <span class="section-tagline">Validation</span>
                     <h2 class="section-title">Certifications & <span class="gradient-text">Credentials</span></h2>
                     <div class="section-underline"></div>
@@ -586,53 +626,118 @@
 
                 <div class="certifications-grid">
                     <!-- Claude 101 -->
-                    <div class="cert-card card">
+                    <div class="cert-card card reveal reveal-delay-1">
                         <div class="cert-header">
                             <img src="certifications/anthropic.png" alt="Anthropic" style="height: 32px; max-width: 120px; object-fit: contain;" />
                         </div>
                         <h3 class="cert-title">Claude 101</h3>
                         <p class="cert-desc">Professional validation of advanced prompting strategies, cognitive
                             architectures, and agentic workflows using Claude.</p>
+                        <div class="cert-links" style="margin-top: 15px;">
+                            <a href="https://github.com/saran-jayakumar/AI_Certification/blob/29e08a28be8cc4138fcfeb632020f0753684413a/Claude%20101.pdf" 
+                               class="btn-text" target="_blank" rel="noopener noreferrer" style="font-size: 0.85rem; display: inline-flex; align-items: center; gap: 5px;">
+                                <span>Show credential</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M15 3h6v6" />
+                                    <path d="M10 14 21 3" />
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                                </svg>
+                            </a>
+                        </div>
                     </div>
 
                     <!-- Claude Code in Action -->
-                    <div class="cert-card card">
+                    <div class="cert-card card reveal reveal-delay-2">
                         <div class="cert-header">
                             <img src="certifications/anthropic.png" alt="Anthropic" style="height: 32px; max-width: 120px; object-fit: contain;" />
                         </div>
                         <h3 class="cert-title">Claude Code in Action</h3>
                         <p class="cert-desc">Hands-on evaluation demonstrating high proficiency in utilizing CLI tools
                             for terminal execution, test-writing, and refactoring.</p>
+                        <div class="cert-links" style="margin-top: 15px;">
+                            <a href="https://github.com/saran-jayakumar/AI_Certification/blob/29e08a28be8cc4138fcfeb632020f0753684413a/Claude%20code%20in%20Action.pdf" 
+                               class="btn-text" target="_blank" rel="noopener noreferrer" style="font-size: 0.85rem; display: inline-flex; align-items: center; gap: 5px;">
+                                <span>Show credential</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M15 3h6v6" />
+                                    <path d="M10 14 21 3" />
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                                </svg>
+                            </a>
+                        </div>
                     </div>
 
                     <!-- Model Context Protocol -->
-                    <div class="cert-card card">
+                    <div class="cert-card card reveal reveal-delay-3">
                         <div class="cert-header">
                             <img src="certifications/anthropic.png" alt="Anthropic" style="height: 32px; max-width: 120px; object-fit: contain;" />
                         </div>
                         <h3 class="cert-title">Model Context Protocol</h3>
                         <p class="cert-desc">Demonstrated competency in integrating localized data sources, building
                             custom MCP servers, and extending LLM capability limits.</p>
+                        <div class="cert-links" style="margin-top: 15px;">
+                            <a href="https://github.com/saran-jayakumar/AI_Certification/blob/29e08a28be8cc4138fcfeb632020f0753684413a/Introduction%20to%20Model%20context%20Protocol.pdf" 
+                               class="btn-text" target="_blank" rel="noopener noreferrer" style="font-size: 0.85rem; display: inline-flex; align-items: center; gap: 5px;">
+                                <span>Show credential</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M15 3h6v6" />
+                                    <path d="M10 14 21 3" />
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                                </svg>
+                            </a>
+                        </div>
                     </div>
 
                     <!-- Agent Skills -->
-                    <div class="cert-card card">
+                    <div class="cert-card card reveal reveal-delay-4">
                         <div class="cert-header">
                             <img src="certifications/anthropic.png" alt="Anthropic" style="height: 32px; max-width: 120px; object-fit: contain;" />
                         </div>
                         <h3 class="cert-title">Agent Skills</h3>
                         <p class="cert-desc">Advanced certification in model actionability, automated tool usage, error
                             handling, and robust multi-turn autonomous programming.</p>
+                        <div class="cert-links" style="margin-top: 15px;">
+                            <a href="https://github.com/saran-jayakumar/AI_Certification/blob/29e08a28be8cc4138fcfeb632020f0753684413a/Introduction%20to%20Agent%20Skills.pdf" 
+                               class="btn-text" target="_blank" rel="noopener noreferrer" style="font-size: 0.85rem; display: inline-flex; align-items: center; gap: 5px;">
+                                <span>Show credential</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M15 3h6v6" />
+                                    <path d="M10 14 21 3" />
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                                </svg>
+                            </a>
+                        </div>
                     </div>
 
                     <!-- OOPS in Java -->
-                    <div class="cert-card card">
+                    <div class="cert-card card reveal reveal-delay-2">
                         <div class="cert-header">
                             <img src="certifications/Simplilearn.png" alt="SimpliLearn" style="height: 32px; max-width: 120px; object-fit: contain;" />
                         </div>
                         <h3 class="cert-title">OOPS in Java</h3>
                         <p class="cert-desc">Deep structural certification focused on core OOP principles: Polymorphism,
                             Inheritance, Encapsulation, and Abstraction.</p>
+                        <div class="cert-links" style="margin-top: 15px;">
+                            <a href="https://drive.google.com/file/d/1dpHDap7Fs-jY7VZCzc_Z4IMLiFBYglr2/view?usp=drivesdk" 
+                               class="btn-text" target="_blank" rel="noopener noreferrer" style="font-size: 0.85rem; display: inline-flex; align-items: center; gap: 5px;">
+                                <span>Show credential</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M15 3h6v6" />
+                                    <path d="M10 14 21 3" />
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                                </svg>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -641,7 +746,7 @@
         <!-- Education Section -->
         <section class="section education-section" id="education">
             <div class="container">
-                <div class="section-header">
+                <div class="section-header reveal">
                     <span class="section-tagline">My Path</span>
                     <h2 class="section-title">Education <span class="gradient-text">Timeline</span></h2>
                     <div class="section-underline"></div>
@@ -649,7 +754,7 @@
 
                 <div class="timeline">
                     <!-- Education 1 -->
-                    <div class="timeline-item">
+                    <div class="timeline-item reveal reveal-delay-1">
                         <div class="timeline-dot"></div>
                         <div class="timeline-card card">
                             <div class="timeline-date">2021 - 2024</div>
@@ -663,7 +768,7 @@
                     </div>
 
                     <!-- Education 2 -->
-                    <div class="timeline-item">
+                    <div class="timeline-item reveal reveal-delay-2">
                         <div class="timeline-dot"></div>
                         <div class="timeline-card card">
                             <div class="timeline-date">2019 - 2021</div>
@@ -681,7 +786,7 @@
         <!-- Contact Section -->
         <section class="section contact-section" id="contact">
             <div class="container">
-                <div class="section-header">
+                <div class="section-header reveal">
                     <span class="section-tagline">Get In Touch</span>
                     <h2 class="section-title">Contact <span class="gradient-text">Me</span></h2>
                     <div class="section-underline"></div>
@@ -689,7 +794,7 @@
 
                 <div class="contact-grid">
                     <!-- Contact Information -->
-                    <div class="contact-info-card card">
+                    <div class="contact-info-card card reveal reveal-delay-1">
                         <h3>Let's build something amazing together!</h3>
                         <p>I am seeking full-time opportunities or collaboration projects. Contact me through any of the
                             channels below or fill in the form.</p>
@@ -743,7 +848,7 @@
                     </div>
 
                     <!-- Contact Form -->
-                    <div class="contact-form-card card">
+                    <div class="contact-form-card card reveal reveal-delay-2">
                         <form id="contact-form">
                             <div class="form-group">
                                 <input type="text" id="name" name="name" class="form-input" placeholder=" " required>
@@ -792,11 +897,10 @@
     <footer class="footer">
         <div class="container footer-container">
             <p class="copyright">&copy; 2026 Saran Jayakumar. All rights reserved.</p>
-            <p class="crafted-with">Designed & Built with <span class="heart">❤️</span> & AI</p>
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script type="module" src="js/main.js"></script>
 </body>
 
 </html>

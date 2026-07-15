@@ -74,7 +74,7 @@ function generatePDF() {
     
     // Contact
     drawText("saranjayakumar22@gmail.com  |  +91 6379928948", "F2", 8.5, 40, 785, 0.8, 0.83, 0.88);
-    drawText("GitHub: github.com/saran_jayakumar  |  LinkedIn: linkedin.com/in/saran_jayakumar", "F2", 8.5, 40, 773, 0.8, 0.83, 0.88);
+    drawText("GitHub: github.com/saran-jayakumar  |  LinkedIn: linkedin.com/in/saran-jayakumar", "F2", 8.5, 40, 773, 0.8, 0.83, 0.88);
     drawText("Location: Trichy, Tamil Nadu, India", "F2", 8.5, 40, 761, 0.8, 0.83, 0.88);
     
     let y = 735;

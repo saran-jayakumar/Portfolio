@@ -34,7 +34,7 @@ class ResumePDF(FPDF):
         
         contacts = [
             "saranjayakumar22@gmail.com  |  +91 6379928948",
-            "GitHub: github.com/saran_jayakumar  |  LinkedIn: linkedin.com/in/saran_jayakumar",
+            "GitHub: github.com/saran-jayakumar  |  LinkedIn: linkedin.com/in/saran-jayakumar",
             "Location: Trichy, Tamil Nadu, India"
         ]
         
