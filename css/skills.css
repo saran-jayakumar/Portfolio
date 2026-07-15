@@ -1,0 +1,70 @@
+/* ==========================================================================
+   SKILLS SECTION
+   ========================================================================== */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.skills-category-card {
+    padding: 32px;
+}
+
+.skills-category-card h3 {
+    font-family: var(--font-heading);
+    font-size: 1.35rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--glass-border);
+    color: var(--text-primary);
+    background: linear-gradient(90deg, var(--text-primary), var(--text-secondary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.skills-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.skill-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 14px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.03);
+    transition: all var(--transition-fast);
+}
+
+.skill-item:hover {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(59, 130, 246, 0.15);
+    transform: translateX(4px);
+}
+
+.skill-name {
+    font-weight: 500;
+    font-size: 0.95rem;
+    color: var(--text-primary);
+}
+
+.skill-level-badge {
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 6px;
+    background: rgba(6, 186, 212, 0.1);
+    color: var(--accent-color);
+    border: 1px solid rgba(6, 186, 212, 0.15);
+}
+
+.skills-category-card:nth-child(2n) .skill-level-badge {
+    background: rgba(139, 92, 246, 0.1);
+    color: var(--secondary-color);
+    border: 1px solid rgba(139, 92, 246, 0.15);
+}

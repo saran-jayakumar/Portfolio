@@ -1,0 +1,58 @@
+/* ==========================================================================
+   CERTIFICATIONS SECTION
+   ========================================================================== */
+.certifications-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.cert-card {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.cert-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.cert-icon {
+    font-size: 2.25rem;
+}
+
+.cert-issuer {
+    font-family: var(--font-heading);
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--accent-color);
+    background: rgba(6, 186, 212, 0.1);
+    padding: 4px 10px;
+    border-radius: 6px;
+}
+
+.cert-card:nth-child(even) .cert-issuer {
+    color: var(--secondary-color);
+    background: rgba(139, 92, 246, 0.1);
+}
+
+.cert-title {
+    font-family: var(--font-heading);
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: var(--text-primary);
+}
+
+.cert-desc {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
+    flex-grow: 1;
+}
