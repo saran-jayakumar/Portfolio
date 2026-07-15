@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <title>Saran Jayakumar | Java Full-Stack & AI-Augmented Developer</title>
+    <meta name="description"
+        content="Portfolio of Saran Jayakumar, a premium Java Full-Stack Developer and Electronics & Communication graduate specializing in Spring Boot, React, Node.js, and AI-augmented development.">
+    <meta name="keywords"
+        content="Saran Jayakumar, Full Stack Developer, Java, Spring Boot, React, Node.js, AI Developer, Claude Code, MCP, Web Developer, ECE Trichy">
+    <meta name="author" content="Saran Jayakumar">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Saran Jayakumar | Java Full-Stack & AI-Augmented Developer">
+    <meta property="og:description"
+        content="Explore Saran Jayakumar's professional portfolio showing skills, projects, and certifications in Java Full-Stack and AI-Augmented development.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- FontAwesome for fallback social icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Background Animated Blobs -->
+    <div class="blob-container">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <!-- Header / Navigation Bar -->
+    <header class="header" id="header">
+        <div class="nav-container">
+            <a href="#home" class="logo" id="nav-logo">SJ<span class="dot">.</span></a>
+
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark/light mode">
+                    <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="4" />
+                        <path d="M12 2v2" />
+                        <path d="M12 20v2" />
+                        <path d="m4.93 4.93 1.41 1.41" />
+                        <path d="m17.66 17.66 1.41 1.41" />
+                        <path d="M2 12h2" />
+                        <path d="M20 12h2" />
+                        <path d="m6.34 17.66-1.41 1.41" />
+                        <path d="m19.07 4.93-1.41 1.41" />
+                    </svg>
+                    <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" />
+                    </svg>
+                </button>
+                <a href="saran_jayakumar_resume.pdf" download class="btn btn-secondary resume-btn" id="resume-download">
+                    <span>Resume</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                        <polyline points="7 10 12 15 17 10" />
+                        <line x1="12" x2="12" y1="15" y2="3" />
+                    </svg>
+                </a>
+                <button class="hamburger-menu" id="hamburger-menu" aria-label="Open menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="section hero-section" id="home">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="hero-badge-container">
+                        <span class="hero-badge">Available for Roles</span>
+                    </div>
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="gradient-text">Saran Jayakumar</span>
+                    </h1>
+                    <h2 class="hero-subtitle">
+                        I am a <span id="typewriter-text" class="accent-text"></span><span class="cursor">|</span>
+                    </h2>
+                    <p class="hero-description">
+                        Electronics & Communication graduate turned software engineer. I build high-performance,
+                        full-stack applications with Java, React, Node.js, and SQL, leveraging AI-augmented workflows to
+                        deliver production-grade code rapidly.
+                    </p>
+                    <div class="hero-ctas">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>View My Work</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <line x1="5" x2="19" y1="12" y2="12" />
+                                <polyline points="12 5 19 12 12 19" />
+                            </svg>
+                        </a>
+                        <a href="#contact" class="btn btn-outline">Let's Connect</a>
+                    </div>
+                    <div class="hero-socials">
+                        <a href="mailto:saranjayakumar22@gmail.com" class="social-icon" aria-label="Email Address">
+                            <i class="fa-regular fa-envelope"></i>
+                        </a>
+                        <a href="https://github.com/saran-jayakumar" target="_blank" rel="noopener noreferrer"
+                            class="social-icon" aria-label="GitHub Profile">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/saran_jayakumar" target="_blank" rel="noopener noreferrer"
+                            class="social-icon" aria-label="LinkedIn Profile">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="tel:+916379928948" class="social-icon" aria-label="Call Phone">
+                            <i class="fa-solid fa-phone"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="avatar-card-wrapper">
+                        <div class="avatar-card-glow"></div>
+                        <div class="avatar-card">
+                            <!-- Dynamic glassmorphic developer artwork -->
+                            <div class="developer-illustration">
+                                <div class="orbit orbit-1"></div>
+                                <div class="orbit orbit-2"></div>
+                                <div class="orbit orbit-3"></div>
+                                <div class="avatar-inner">
+                                    <div class="avatar-img-fallback">
+                                        <span class="avatar-initials">SJ</span>
+                                    </div>
+                                </div>
+                                <div class="tech-icon" style="top: 78px; left: 208px; animation-delay: 0s;" data-label="Java">
+                                    <img src="icons/java.png" alt="Java" style="width: 24px; height: 24px; object-fit: contain;" />
+                                </div>
+                                <div class="tech-icon" style="top: 127px; left: 200px; animation-delay: 0.375s;" data-label="React">
+                                    <img src="icons/react.png" alt="React" style="width: 24px; height: 24px; object-fit: contain;" />
+                                </div>
+                                <div class="tech-icon" style="top: 170px; left: 170px; animation-delay: 0.75s;" data-label="Spring Boot">
+                                    <img src="icons/spring-boot.png" alt="Spring Boot" style="width: 24px; height: 24px; object-fit: contain;" />
+                                </div>
+                                <div class="tech-icon" style="top: 200px; left: 127px; animation-delay: 1.125s;" data-label="JavaScript">
+                                    <img src="icons/js.png" alt="JavaScript" style="width: 24px; height: 24px; object-fit: contain;" />
+                                </div>
+                                <div class="tech-icon" style="top: 208px; left: 78px; animation-delay: 1.5s;" data-label="HTML5">
+                                    <img src="icons/HTML.png" alt="HTML5" style="width: 24px; height: 24px; object-fit: contain;" />
+                                </div>
+                                <div class="tech-icon" style="top: 200px; left: 29px; animation-delay: 1.875s;" data-label="CSS3">
+                                    <img src="icons/css.png" alt="CSS3" style="width: 24px; height: 24px; object-fit: contain;" />
+                                </div>
+                                <div class="tech-icon" style="top: 170px; left: -12px; animation-delay: 2.25s;" data-label="MySQL">
+                                    <img src="icons/MySQL.png" alt="MySQL" style="width: 24px; height: 24px; object-fit: contain;" />
+                                </div>
+                                <div class="tech-icon" style="top: 127px; left: -42px; animation-delay: 2.625s;" data-label="MongoDB">
+                                    <img src="icons/MongoDB.png" alt="MongoDB" style="width: 24px; height: 24px; object-fit: contain;" />
+                                </div>
+                                <div class="tech-icon" style="top: 78px; left: -52px; animation-delay: 3s;" data-label="Node.js">
+                                    <img src="icons/node.png" alt="Node.js" style="width: 24px; height: 24px; object-fit: contain;" />
+                                </div>
+                                <div class="tech-icon" style="top: 29px; left: -42px; animation-delay: 3.375s;" data-label="Git">
+                                    <img src="icons/git.png" alt="Git" style="width: 24px; height: 24px; object-fit: contain;" />
+                                </div>
+                                <div class="tech-icon" style="top: -12px; left: -12px; animation-delay: 3.75s;" data-label="Claude Code">
+                                    <img src="icons/claude.png" alt="Claude Code" style="width: 24px; height: 24px; object-fit: contain;" />
+                                </div>
+                                <div class="tech-icon" style="top: -42px; left: 29px; animation-delay: 4.125s;" data-label="Gemini">
+                                    <img src="icons/gemini.png" alt="Gemini" style="width: 24px; height: 24px; object-fit: contain;" />
+                                </div>
+                                <div class="tech-icon" style="top: -52px; left: 78px; animation-delay: 4.5s;" data-label="Antigravity IDE">
+                                    <img src="icons/antigravity.png" alt="Antigravity IDE" style="width: 24px; height: 24px; object-fit: contain;" />
+                                </div>
+                                <div class="tech-icon" style="top: -42px; left: 127px; animation-delay: 4.875s;" data-label="ChatGPT">
+                                    <img src="icons/chatgpt.png" alt="ChatGPT" style="width: 24px; height: 24px; object-fit: contain;" />
+                                </div>
+                                <div class="tech-icon" style="top: -12px; left: 170px; animation-delay: 5.25s;" data-label="VS Code">
+                                    <img src="icons/vscode.png" alt="VS Code" style="width: 24px; height: 24px; object-fit: contain;" />
+                                </div>
+                                <div class="tech-icon" style="top: 29px; left: 200px; animation-delay: 5.625s;" data-label="IntelliJ IDEA">
+                                    <img src="icons/intellij.png" alt="IntelliJ IDEA" style="width: 24px; height: 24px; object-fit: contain;" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section about-section" id="about">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tagline">Who I Am</span>
+                    <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+                    <div class="section-underline"></div>
+                </div>
+
+                <div class="about-grid" style="grid-template-columns: 1fr;">
+                    <div class="about-card main-about-card card">
+                        <div class="card-inner">
+                            <p>Hi, I'm Saran Jayakumar, a Java Full-Stack Developer with a Bachelor's degree in Electronics and Communication Engineering (2024). I enjoy building responsive web applications and developing scalable backend services using modern technologies.</p>
+                            <p>My technical skills include Java, Spring Boot, React, HTML, CSS, JavaScript, SQL, MySQL, REST APIs, Git, and GitHub. I have developed projects that strengthened my understanding of full-stack development, database management, and API integration.</p>
+                            <p style="margin-bottom: 0;">I am passionate about learning new technologies, solving real-world problems, and writing clean, maintainable code. As a fresher, I am looking for an opportunity to contribute to a professional development team while continuously expanding my skills as a software engineer.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section skills-section" id="skills">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tagline">My Capabilities</span>
+                    <h2 class="section-title">Technical <span class="gradient-text">Skills</span></h2>
+                    <div class="section-underline"></div>
+                </div>
+
+                <div class="skills-wrapper">
+                    <!-- Skills Grid -->
+                    <div class="skills-grid">
+                        <!-- Languages -->
+                        <div class="skills-category-card card">
+                            <h3>Languages</h3>
+                            <ul class="skills-list">
+                                <li class="skill-item">
+                                    <div style="display: flex; align-items: center; gap: 10px;">
+                                        <img src="icons/java.png" alt="Java" style="width: 18px; height: 18px; object-fit: contain;" />
+                                        <span class="skill-name">Java</span>
+                                    </div>
+                                </li>
+                                <li class="skill-item">
+                                    <div style="display: flex; align-items: center; gap: 10px;">
+                                        <img src="icons/js.png" alt="JavaScript" style="width: 18px; height: 18px; object-fit: contain;" />
+                                        <span class="skill-name">JavaScript (ES6+)</span>
+                                    </div>
+                                </li>
+                                <li class="skill-item">
+                                    <div style="display: flex; align-items: center; gap: 10px;">
+                                        <img src="icons/sql.png" alt="SQL" style="width: 18px; height: 18px; object-fit: contain;" />
+                                        <span class="skill-name">SQL</span>
+                                    </div>
+                                </li>
+                                <li class="skill-item">
+                                    <div style="display: flex; align-items: center; gap: 10px;">
+                                        <img src="icons/HTML.png" alt="HTML" style="width: 18px; height: 18px; object-fit: contain;" />
+                                        <span class="skill-name">HTML5</span>
+                                    </div>
+                                </li>
+                                <li class="skill-item">
+                                    <div style="display: flex; align-items: center; gap: 10px;">
+                                        <img src="icons/css.png" alt="CSS" style="width: 18px; height: 18px; object-fit: contain;" />
+                                        <span class="skill-name">CSS3</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Frameworks & Libraries -->
+                        <div class="skills-category-card card">
+                            <h3>Frameworks & Libs</h3>
+                            <ul class="skills-list">
+                                <li class="skill-item">
+                                    <div style="display: flex; align-items: center; gap: 10px;">
+                                        <img src="icons/spring-boot.png" alt="Spring Boot" style="width: 18px; height: 18px; object-fit: contain;" />
+                                        <span class="skill-name">Spring Boot</span>
+                                    </div>
+                                </li>
+                                <li class="skill-item">
+                                    <div style="display: flex; align-items: center; gap: 10px;">
+                                        <img src="icons/react.png" alt="React" style="width: 18px; height: 18px; object-fit: contain;" />
+                                        <span class="skill-name">React.js</span>
+                                    </div>
+                                </li>
+                                <li class="skill-item">
+                                    <div style="display: flex; align-items: center; gap: 10px;">
+                                        <img src="icons/node.png" alt="Node.js" style="width: 18px; height: 18px; object-fit: contain;" />
+                                        <span class="skill-name">Node.js</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- AI-Augmented Development -->
+                        <div class="skills-category-card card">
+                            <h3>AI-Augmented Dev</h3>
+                            <ul class="skills-list">
+                                <li class="skill-item">
+                                    <div style="display: flex; align-items: center; gap: 10px;">
+                                        <img src="icons/claude.png" alt="Claude Code" style="width: 18px; height: 18px; object-fit: contain;" />
+                                        <span class="skill-name">Claude Code</span>
+                                    </div>
+                                </li>
+                                <li class="skill-item">
+                                    <div style="display: flex; align-items: center; gap: 10px;">
+                                        <img src="icons/gemini.png" alt="Gemini" style="width: 18px; height: 18px; object-fit: contain;" />
+                                        <span class="skill-name">Gemini</span>
+                                    </div>
+                                </li>
+                                <li class="skill-item">
+                                    <div style="display: flex; align-items: center; gap: 10px;">
+                                        <img src="icons/chatgpt.png" alt="ChatGPT" style="width: 18px; height: 18px; object-fit: contain;" />
+                                        <span class="skill-name">ChatGPT</span>
+                                    </div>
+                                </li>
+                                <li class="skill-item">
+                                    <div style="display: flex; align-items: center; gap: 10px;">
+                                        <img src="icons/github.png" alt="GitHub Copilot" style="width: 18px; height: 18px; object-fit: contain;" />
+                                        <span class="skill-name">GitHub Copilot</span>
+                                    </div>
+                                </li>
+                                <li class="skill-item">
+                                    <div style="display: flex; align-items: center; gap: 10px;">
+                                        <img src="icons/ollama.png" alt="Ollama" style="width: 18px; height: 18px; object-fit: contain;" />
+                                        <span class="skill-name">Ollama & OpenWebUI</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Databases -->
+                        <div class="skills-category-card card">
+                            <h3>Databases</h3>
+                            <ul class="skills-list">
+                                <li class="skill-item">
+                                    <div style="display: flex; align-items: center; gap: 10px;">
+                                        <img src="icons/MySQL.png" alt="MySQL" style="width: 18px; height: 18px; object-fit: contain;" />
+                                        <span class="skill-name">MySQL</span>
+                                    </div>
+                                </li>
+                                <li class="skill-item">
+                                    <div style="display: flex; align-items: center; gap: 10px;">
+                                        <img src="icons/MongoDB.png" alt="MongoDB" style="width: 18px; height: 18px; object-fit: contain;" />
+                                        <span class="skill-name">MongoDB</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- CS Fundamentals -->
+                        <div class="skills-category-card card">
+                            <h3>CS Fundamentals</h3>
+                            <ul class="skills-list">
+                                <li class="skill-item">
+                                    <span class="skill-name">OOPs Concepts</span>
+                                </li>
+                                <li class="skill-item">
+                                    <span class="skill-name">DBMS Management</span>
+                                </li>
+                                <li class="skill-item">
+                                    <span class="skill-name">REST API Design</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Tools & Practices -->
+                        <div class="skills-category-card card">
+                            <h3>Tools & Practices</h3>
+                            <ul class="skills-list">
+                                <li class="skill-item">
+                                    <div style="display: flex; align-items: center; gap: 10px;">
+                                        <img src="icons/git.png" alt="Git" style="width: 18px; height: 18px; object-fit: contain;" />
+                                        <span class="skill-name">Git</span>
+                                    </div>
+                                </li>
+                                <li class="skill-item">
+                                    <div style="display: flex; align-items: center; gap: 10px;">
+                                        <img src="icons/github.png" alt="GitHub" style="width: 18px; height: 18px; object-fit: contain;" />
+                                        <span class="skill-name">GitHub</span>
+                                    </div>
+                                </li>
+                                <li class="skill-item">
+                                    <div style="display: flex; align-items: center; gap: 10px;">
+                                        <img src="icons/postman.png" alt="Postman" style="width: 18px; height: 18px; object-fit: contain;" />
+                                        <span class="skill-name">Postman</span>
+                                    </div>
+                                </li>
+                                <li class="skill-item">
+                                    <div style="display: flex; align-items: center; gap: 10px;">
+                                        <img src="icons/vscode.png" alt="VS Code" style="width: 18px; height: 18px; object-fit: contain;" />
+                                        <span class="skill-name">Visual Studio Code</span>
+                                    </div>
+                                </li>
+                                <li class="skill-item">
+                                    <div style="display: flex; align-items: center; gap: 10px;">
+                                        <img src="icons/intellij.png" alt="IntelliJ" style="width: 18px; height: 18px; object-fit: contain;" />
+                                        <span class="skill-name">IntelliJ IDEA</span>
+                                    </div>
+                                </li>
+                                <li class="skill-item">
+                                    <div style="display: flex; align-items: center; gap: 10px;">
+                                        <img src="icons/antigravity.png" alt="Antigravity" style="width: 18px; height: 18px; object-fit: contain;" />
+                                        <span class="skill-name">Antigravity IDE</span>
+                                    </div>
+                                </li>
+                                <li class="skill-item">
+                                    <div style="display: flex; align-items: center; gap: 10px;">
+                                        <img src="icons/MySQL.png" alt="MySQL Workbench" style="width: 18px; height: 18px; object-fit: contain;" />
+                                        <span class="skill-name">MySQL Workbench</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section projects-section" id="projects">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tagline">My Works</span>
+                    <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+                    <div class="section-underline"></div>
+                </div>
+
+                <!-- Project Filters -->
+                <div class="project-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="backend">Java & Backend</button>
+                    <button class="filter-btn" data-filter="frontend">Frontend & Fullstack</button>
+                </div>
+
+                <!-- Projects Grid -->
+                <div class="projects-grid">
+                    <!-- Project 1: ONE SCOOP (AI - Augmented Development) -->
+                    <div class="project-card card" data-category="backend">
+                        <div class="project-image-fallback" style="background: rgba(255, 255, 255, 0.02);">
+                            <img src="project-logo/onescoop_logo.png" alt="One Scoop Logo" style="width: 100%; height: 100%; object-fit: contain; padding: 20px; z-index: 2;" />
+                        </div>
+                        <div class="project-content">
+                            <span class="project-tag">Java | Spring Boot | React | MySQL | JWT</span>
+                            <h3 class="project-title">ONE SCOOP (AI - Augmented Development)</h3>
+                            <div class="project-description">
+                                <ul style="list-style-type: none; padding-left: 0; margin: 0; display: flex; flex-direction: column; gap: 8px;">
+                                    <li style="display: flex; align-items: flex-start; gap: 8px; font-size: 0.9rem;">
+                                        <span style="color: var(--accent-color); margin-top: 2px;">■</span>
+                                        <span>Developed a multi-role full-stack management system with Spring Boot and React to streamline order workflows, staff management, and sales tracking.</span>
+                                    </li>
+                                    <li style="display: flex; align-items: flex-start; gap: 8px; font-size: 0.9rem;">
+                                        <span style="color: var(--accent-color); margin-top: 2px;">■</span>
+                                        <span>Implemented Role-Based Access Control (RBAC) using Spring Security and JWT, protecting API endpoints and dynamically routing 4 distinct user roles.</span>
+                                    </li>
+                                    <li style="display: flex; align-items: flex-start; gap: 8px; font-size: 0.9rem;">
+                                        <span style="color: var(--accent-color); margin-top: 2px;">■</span>
+                                        <span>Built a tableside order-taking flow for servers that automatically dispatches real-time bills and invoices to the cashier dashboard.</span>
+                                    </li>
+                                    <li style="display: flex; align-items: flex-start; gap: 8px; font-size: 0.9rem;">
+                                        <span style="color: var(--accent-color); margin-top: 2px;">■</span>
+                                        <span>Designed a normalized MySQL database schema with 7+ tables to manage transactions, inventory, and daily/monthly/yearly profit statistics.</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/saran-jayakumar/Ice-cream-shop-management-system" class="btn-text"
+                                    target="_blank" rel="noopener noreferrer">
+                                    <span>Source Code</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M15 3h6v6" />
+                                        <path d="M10 14 21 3" />
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2: News App -->
+                    <div class="project-card card" data-category="frontend">
+                        <div class="project-image-fallback" style="background: rgba(255, 255, 255, 0.02);">
+                            <img src="project-logo/news.png" alt="News App Logo" style="width: 100%; height: 100%; object-fit: contain; padding: 20px; z-index: 2;" />
+                        </div>
+                        <div class="project-content">
+                            <span class="project-tag">HTML | CSS | JavaScript</span>
+                            <h3 class="project-title">News App</h3>
+                            <div class="project-description">
+                                <ul style="list-style-type: none; padding-left: 0; margin: 0; display: flex; flex-direction: column; gap: 8px;">
+                                    <li style="display: flex; align-items: flex-start; gap: 8px; font-size: 0.9rem;">
+                                        <span style="color: var(--accent-color); margin-top: 2px;">■</span>
+                                        <span>Developed a fully responsive news web application using HTML, CSS, and modern JavaScript.</span>
+                                    </li>
+                                    <li style="display: flex; align-items: flex-start; gap: 8px; font-size: 0.9rem;">
+                                        <span style="color: var(--accent-color); margin-top: 2px;">■</span>
+                                        <span>Built a Node.js/Express backend proxy to securely handle third-party API keys and manage CORS requests.</span>
+                                    </li>
+                                    <li style="display: flex; align-items: flex-start; gap: 8px; font-size: 0.9rem;">
+                                        <span style="color: var(--accent-color); margin-top: 2px;">■</span>
+                                        <span>Implemented backend in-memory caching to improve page load speed and minimize API requests.</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/saran-jayakumar/News-Website" class="btn-text" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <span>Source Code</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M15 3h6v6" />
+                                        <path d="M10 14 21 3" />
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3: MeteoBridge MCP Server -->
+                    <div class="project-card card" data-category="backend">
+                        <div class="project-image-fallback" style="background: rgba(255, 255, 255, 0.02);">
+                            <img src="project-logo/MCP.png" alt="MeteoBridge MCP Server Logo" style="width: 100%; height: 100%; object-fit: contain; padding: 20px; z-index: 2;" />
+                        </div>
+                        <div class="project-content">
+                            <span class="project-tag">Java | Spring Boot | Spring Boot AI</span>
+                            <h3 class="project-title">MeteoBridge MCP Server</h3>
+                            <div class="project-description">
+                                <ul style="list-style-type: none; padding-left: 0; margin: 0; display: flex; flex-direction: column; gap: 8px;">
+                                    <li style="display: flex; align-items: flex-start; gap: 8px; font-size: 0.9rem;">
+                                        <span style="color: var(--accent-color); margin-top: 2px;">■</span>
+                                        <span>Developed a dynamic MCP backend in Java, enabling Large Language Models to overcome static training data limitations.</span>
+                                    </li>
+                                    <li style="display: flex; align-items: flex-start; gap: 8px; font-size: 0.9rem;">
+                                        <span style="color: var(--accent-color); margin-top: 2px;">■</span>
+                                        <span>Enabled AI agents to autonomously fetch and analyze current temperatures, weather alerts, and forecasting data in real-time.</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/saran-jayakumar/MeteoBridge_Real-Time_Weather_Tool_for_LLM" class="btn-text"
+                                    target="_blank" rel="noopener noreferrer">
+                                    <span>Source Code</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M15 3h6v6" />
+                                        <path d="M10 14 21 3" />
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section class="section certifications-section" id="certifications">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tagline">Validation</span>
+                    <h2 class="section-title">Certifications & <span class="gradient-text">Credentials</span></h2>
+                    <div class="section-underline"></div>
+                </div>
+
+                <div class="certifications-grid">
+                    <!-- Claude 101 -->
+                    <div class="cert-card card">
+                        <div class="cert-header">
+                            <img src="certifications/anthropic.png" alt="Anthropic" style="height: 32px; max-width: 120px; object-fit: contain;" />
+                        </div>
+                        <h3 class="cert-title">Claude 101</h3>
+                        <p class="cert-desc">Professional validation of advanced prompting strategies, cognitive
+                            architectures, and agentic workflows using Claude.</p>
+                    </div>
+
+                    <!-- Claude Code in Action -->
+                    <div class="cert-card card">
+                        <div class="cert-header">
+                            <img src="certifications/anthropic.png" alt="Anthropic" style="height: 32px; max-width: 120px; object-fit: contain;" />
+                        </div>
+                        <h3 class="cert-title">Claude Code in Action</h3>
+                        <p class="cert-desc">Hands-on evaluation demonstrating high proficiency in utilizing CLI tools
+                            for terminal execution, test-writing, and refactoring.</p>
+                    </div>
+
+                    <!-- Model Context Protocol -->
+                    <div class="cert-card card">
+                        <div class="cert-header">
+                            <img src="certifications/anthropic.png" alt="Anthropic" style="height: 32px; max-width: 120px; object-fit: contain;" />
+                        </div>
+                        <h3 class="cert-title">Model Context Protocol</h3>
+                        <p class="cert-desc">Demonstrated competency in integrating localized data sources, building
+                            custom MCP servers, and extending LLM capability limits.</p>
+                    </div>
+
+                    <!-- Agent Skills -->
+                    <div class="cert-card card">
+                        <div class="cert-header">
+                            <img src="certifications/anthropic.png" alt="Anthropic" style="height: 32px; max-width: 120px; object-fit: contain;" />
+                        </div>
+                        <h3 class="cert-title">Agent Skills</h3>
+                        <p class="cert-desc">Advanced certification in model actionability, automated tool usage, error
+                            handling, and robust multi-turn autonomous programming.</p>
+                    </div>
+
+                    <!-- OOPS in Java -->
+                    <div class="cert-card card">
+                        <div class="cert-header">
+                            <img src="certifications/Simplilearn.png" alt="SimpliLearn" style="height: 32px; max-width: 120px; object-fit: contain;" />
+                        </div>
+                        <h3 class="cert-title">OOPS in Java</h3>
+                        <p class="cert-desc">Deep structural certification focused on core OOP principles: Polymorphism,
+                            Inheritance, Encapsulation, and Abstraction.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="section education-section" id="education">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tagline">My Path</span>
+                    <h2 class="section-title">Education <span class="gradient-text">Timeline</span></h2>
+                    <div class="section-underline"></div>
+                </div>
+
+                <div class="timeline">
+                    <!-- Education 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card card">
+                            <div class="timeline-date">2021 - 2024</div>
+                            <h3 class="timeline-degree">Bachelor of Engineering (ECE)</h3>
+                            <h4 class="timeline-school">K. Ramakrishnan College of Engineering | Trichy</h4>
+                            <p class="timeline-details">Specialization in Electronics and Communication Engineering.
+                                Built dynamic hardware/software integration prototypes. Maintained a CGPA of
+                                <strong>7.1</strong>.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Education 2 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card card">
+                            <div class="timeline-date">2019 - 2021</div>
+                            <h3 class="timeline-degree">Diploma Certification (ECE)</h3>
+                            <h4 class="timeline-school">Sri Vignesh Polytechnic College | Trichy</h4>
+                            <p class="timeline-details">Specialization in Electronics and Communication Engineering.
+                                Focused on circuit analytics, microprocessor programming, and logic controllers.
+                                Graduated with <strong>80%</strong>.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section contact-section" id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tagline">Get In Touch</span>
+                    <h2 class="section-title">Contact <span class="gradient-text">Me</span></h2>
+                    <div class="section-underline"></div>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Contact Information -->
+                    <div class="contact-info-card card">
+                        <h3>Let's build something amazing together!</h3>
+                        <p>I am seeking full-time opportunities or collaboration projects. Contact me through any of the
+                            channels below or fill in the form.</p>
+
+                        <div class="info-list">
+                            <div class="info-item">
+                                <div class="info-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <rect width="20" height="16" x="2" y="4" rx="2" />
+                                        <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+                                    </svg>
+                                </div>
+                                <div class="info-text">
+                                    <span>Email Me</span>
+                                    <a href="mailto:saranjayakumar22@gmail.com">saranjayakumar22@gmail.com</a>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <div class="info-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path
+                                            d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                                    </svg>
+                                </div>
+                                <div class="info-text">
+                                    <span>Call / WhatsApp</span>
+                                    <a href="tel:+916379928948">+91 6379928948</a>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <div class="info-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                                        <circle cx="12" cy="10" r="3" />
+                                    </svg>
+                                </div>
+                                <div class="info-text">
+                                    <span>Location</span>
+                                    <p>Trichy, Tamil Nadu, India</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="contact-form-card card">
+                        <form id="contact-form">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" class="form-input" placeholder=" " required>
+                                <label for="name" class="form-label">Your Name</label>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" class="form-input" placeholder=" " required>
+                                <label for="email" class="form-label">Email Address</label>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="text" id="subject" name="subject" class="form-input" placeholder=" "
+                                    required>
+                                <label for="subject" class="form-label">Subject</label>
+                            </div>
+
+                            <div class="form-group">
+                                <textarea id="message" name="message" class="form-input form-textarea" placeholder=" "
+                                    required></textarea>
+                                <label for="message" class="form-label">Your Message</label>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary submit-btn">
+                                <span>Send Message</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <line x1="22" x2="11" y1="2" y2="13" />
+                                    <polygon points="22 2 15 22 11 13 2 9 22 2" />
+                                </svg>
+                            </button>
+                        </form>
+                        <div class="form-success-message" id="form-success">
+                            <div class="success-icon">✓</div>
+                            <h3>Message Sent Successfully!</h3>
+                            <p>Thank you for reaching out, Saran will get back to you shortly.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <p class="copyright">&copy; 2026 Saran Jayakumar. All rights reserved.</p>
+            <p class="crafted-with">Designed & Built with <span class="heart">❤️</span> & AI</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,357 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.275 841.889] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+6 0 obj
+<< /Length 5793 >>
+stream
+0.06 0.09 0.16 rg
+0 780 595.275 70 re f
+BT
+/F1 24 Tf
+1 1 1 rg
+1.0 0.0 0.0 1.0 40 815 Tm
+(Saran Jayakumar) Tj
+ET
+BT
+/F1 12 Tf
+0.02 0.71 0.84 rg
+1.0 0.0 0.0 1.0 40 798 Tm
+(Java Full-Stack & AI-Augmented Developer) Tj
+ET
+BT
+/F2 8.5 Tf
+0.8 0.83 0.88 rg
+1.0 0.0 0.0 1.0 40 785 Tm
+(saranjayakumar22@gmail.com  |  +91 6379928948) Tj
+ET
+BT
+/F2 8.5 Tf
+0.8 0.83 0.88 rg
+1.0 0.0 0.0 1.0 40 773 Tm
+(GitHub: github.com/saran_jayakumar  |  LinkedIn: linkedin.com/in/saran_jayakumar) Tj
+ET
+BT
+/F2 8.5 Tf
+0.8 0.83 0.88 rg
+1.0 0.0 0.0 1.0 40 761 Tm
+(Location: Trichy, Tamil Nadu, India) Tj
+ET
+BT
+/F1 11 Tf
+0.54 0.36 0.96 rg
+1.0 0.0 0.0 1.0 40 735 Tm
+(PROFESSIONAL SUMMARY) Tj
+ET
+0.23 0.51 0.96 RG
+0.5 w
+40 731 m
+555 731 l
+S
+BT
+/F2 9 Tf
+0.2 0.27 0.33 rg
+1.0 0.0 0.0 1.0 40 717 Tm
+(Software engineer and Electronics & Communication Engineering graduate with a strong foundation in Object-Oriented) Tj
+ET
+BT
+/F2 9 Tf
+0.2 0.27 0.33 rg
+1.0 0.0 0.0 1.0 40 704 Tm
+(Programming \(OOP\), and hands-on experience building full-stack applications with Node.js, Java, React.js, and SQL.) Tj
+ET
+BT
+/F2 9 Tf
+0.2 0.27 0.33 rg
+1.0 0.0 0.0 1.0 40 691 Tm
+(Practised in AI-augmented development using agentic coding assistants \(Claude Code\) to write and test) Tj
+ET
+BT
+/F2 9 Tf
+0.2 0.27 0.33 rg
+1.0 0.0 0.0 1.0 40 678 Tm
+(production-quality features faster. Anthropic-certified in Claude Code, Model Context Protocol, and Agent Skills.) Tj
+ET
+BT
+/F2 9 Tf
+0.2 0.27 0.33 rg
+1.0 0.0 0.0 1.0 40 665 Tm
+(Product-first mindset and strong English communication.) Tj
+ET
+BT
+/F1 11 Tf
+0.54 0.36 0.96 rg
+1.0 0.0 0.0 1.0 40 642 Tm
+(TECHNICAL EXPERIENCE) Tj
+ET
+0.23 0.51 0.96 RG
+0.5 w
+40 638 m
+555 638 l
+S
+BT
+/F1 10 Tf
+0.06 0.09 0.16 rg
+1.0 0.0 0.0 1.0 45 626 Tm
+(MeteoBridge) Tj
+ET
+BT
+/F2 8.5 Tf
+0.4 0.45 0.5 rg
+1.0 0.0 0.0 1.0 360 626 Tm
+(Java | Spring Boot | Spring Boot AI) Tj
+ET
+BT
+/F2 9 Tf
+0.2 0.27 0.33 rg
+1.0 0.0 0.0 1.0 50 614 Tm
+(- Developed a dynamic MCP backend in Java, enabling LLMs to bypass static training data limits.) Tj
+ET
+BT
+/F2 9 Tf
+0.2 0.27 0.33 rg
+1.0 0.0 0.0 1.0 50 602 Tm
+(- Enabled AI agents to autonomously fetch and analyze current weather and forecasts in real-time.) Tj
+ET
+BT
+/F1 10 Tf
+0.06 0.09 0.16 rg
+1.0 0.0 0.0 1.0 45 586 Tm
+(News App) Tj
+ET
+BT
+/F2 8.5 Tf
+0.4 0.45 0.5 rg
+1.0 0.0 0.0 1.0 360 586 Tm
+(HTML | CSS | JavaScript) Tj
+ET
+BT
+/F2 9 Tf
+0.2 0.27 0.33 rg
+1.0 0.0 0.0 1.0 50 574 Tm
+(- Created a news portal and NewsAPI to fetch and display live news articles dynamically.) Tj
+ET
+BT
+/F2 9 Tf
+0.2 0.27 0.33 rg
+1.0 0.0 0.0 1.0 50 562 Tm
+(- Added category-based filtering \(sports, business, tech\) with a responsive user interface.) Tj
+ET
+BT
+/F1 10 Tf
+0.06 0.09 0.16 rg
+1.0 0.0 0.0 1.0 45 546 Tm
+(Weather App) Tj
+ET
+BT
+/F2 8.5 Tf
+0.4 0.45 0.5 rg
+1.0 0.0 0.0 1.0 360 546 Tm
+(HTML | CSS | JavaScript) Tj
+ET
+BT
+/F2 9 Tf
+0.2 0.27 0.33 rg
+1.0 0.0 0.0 1.0 50 534 Tm
+(- Integrated with the OpenWeather API to display real-time weather information by user input.) Tj
+ET
+BT
+/F2 9 Tf
+0.2 0.27 0.33 rg
+1.0 0.0 0.0 1.0 50 522 Tm
+(- Focused on clean UI design, accurate data serialization, and optimized rendering speed.) Tj
+ET
+BT
+/F1 11 Tf
+0.54 0.36 0.96 rg
+1.0 0.0 0.0 1.0 40 502 Tm
+(TECHNICAL SKILLS) Tj
+ET
+0.23 0.51 0.96 RG
+0.5 w
+40 498 m
+555 498 l
+S
+BT
+/F1 9 Tf
+0.06 0.09 0.16 rg
+1.0 0.0 0.0 1.0 45 486 Tm
+(Languages:) Tj
+ET
+BT
+/F2 8.5 Tf
+0.2 0.27 0.33 rg
+1.0 0.0 0.0 1.0 140 486 Tm
+(Java, JavaScript \(ES6+\), SQL, HTML5 & CSS3) Tj
+ET
+BT
+/F1 9 Tf
+0.06 0.09 0.16 rg
+1.0 0.0 0.0 1.0 310 486 Tm
+(AI-Augmented Dev:) Tj
+ET
+BT
+/F2 8.5 Tf
+0.2 0.27 0.33 rg
+1.0 0.0 0.0 1.0 415 486 Tm
+(Claude Code, Copilot, MCP, Ollama) Tj
+ET
+BT
+/F1 9 Tf
+0.06 0.09 0.16 rg
+1.0 0.0 0.0 1.0 45 474 Tm
+(Frameworks & Libs:) Tj
+ET
+BT
+/F2 8.5 Tf
+0.2 0.27 0.33 rg
+1.0 0.0 0.0 1.0 140 474 Tm
+(Spring Boot, Node.js, React.js) Tj
+ET
+BT
+/F1 9 Tf
+0.06 0.09 0.16 rg
+1.0 0.0 0.0 1.0 310 474 Tm
+(Tools & Practices:) Tj
+ET
+BT
+/F2 8.5 Tf
+0.2 0.27 0.33 rg
+1.0 0.0 0.0 1.0 415 474 Tm
+(Git, GitHub, Postman, Agile/Scrum) Tj
+ET
+BT
+/F1 9 Tf
+0.06 0.09 0.16 rg
+1.0 0.0 0.0 1.0 45 462 Tm
+(Databases:) Tj
+ET
+BT
+/F2 8.5 Tf
+0.2 0.27 0.33 rg
+1.0 0.0 0.0 1.0 140 462 Tm
+(SQL \(MySQL\), MongoDB) Tj
+ET
+BT
+/F1 9 Tf
+0.06 0.09 0.16 rg
+1.0 0.0 0.0 1.0 310 462 Tm
+(CS Fundamentals:) Tj
+ET
+BT
+/F2 8.5 Tf
+0.2 0.27 0.33 rg
+1.0 0.0 0.0 1.0 415 462 Tm
+(OOPs, DBMS, REST API design) Tj
+ET
+BT
+/F1 11 Tf
+0.54 0.36 0.96 rg
+1.0 0.0 0.0 1.0 40 442 Tm
+(ACADEMIC PROJECT) Tj
+ET
+0.23 0.51 0.96 RG
+0.5 w
+40 438 m
+555 438 l
+S
+BT
+/F1 9.5 Tf
+0.06 0.09 0.16 rg
+1.0 0.0 0.0 1.0 45 426 Tm
+(Dynamic Wireless E-Vehicle Charging \(2023 - 2024\)) Tj
+ET
+BT
+/F2 8.5 Tf
+0.4 0.45 0.5 rg
+1.0 0.0 0.0 1.0 360 426 Tm
+(Arduino Nano | Embedded Coil | Prototype) Tj
+ET
+BT
+/F2 9 Tf
+0.2 0.27 0.33 rg
+1.0 0.0 0.0 1.0 50 414 Tm
+(- Designed inductive power transfer system using ground charging pad and onboard receiver.) Tj
+ET
+BT
+/F2 9 Tf
+0.2 0.27 0.33 rg
+1.0 0.0 0.0 1.0 50 402 Tm
+(- Achieved up to 95% charging efficiency in prototype tests with alignment safety mechanisms.) Tj
+ET
+BT
+/F1 11 Tf
+0.54 0.36 0.96 rg
+1.0 0.0 0.0 1.0 40 382 Tm
+(CERTIFICATIONS & EDUCATION) Tj
+ET
+0.23 0.51 0.96 RG
+0.5 w
+40 378 m
+555 378 l
+S
+BT
+/F1 9.5 Tf
+0.06 0.09 0.16 rg
+1.0 0.0 0.0 1.0 45 366 Tm
+(Certifications:) Tj
+ET
+BT
+/F2 8.5 Tf
+0.2 0.27 0.33 rg
+1.0 0.0 0.0 1.0 140 366 Tm
+(Anthropic: Claude 101, Claude Code in Action, Model Context Protocol, Agent Skills) Tj
+ET
+BT
+/F2 8.5 Tf
+0.2 0.27 0.33 rg
+1.0 0.0 0.0 1.0 140 356 Tm
+(SimpliLearn: OOPS in Java) Tj
+ET
+BT
+/F1 9.5 Tf
+0.06 0.09 0.16 rg
+1.0 0.0 0.0 1.0 45 340 Tm
+(Education:) Tj
+ET
+BT
+/F2 9 Tf
+0.2 0.27 0.33 rg
+1.0 0.0 0.0 1.0 140 340 Tm
+(B.Eng. in ECE | K.Ramakrishnan College of Engineering | 2021 - 2024 | CGPA: 7.1) Tj
+ET
+BT
+/F2 9 Tf
+0.2 0.27 0.33 rg
+1.0 0.0 0.0 1.0 140 328 Tm
+(Diploma in ECE | Sri Vignesh Polytechnic College | 2019 - 2021 | Percentage: 80%) Tj
+ET
+
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000259 00000 n 
+0000000334 00000 n 
+0000000404 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+6249
+%%EOF
